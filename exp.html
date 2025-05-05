@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="exp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty of beaches Explore</title>
+    <style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+      }
+      main {
+          flex: 1;
+          padding: 20px;
+      }
+      footer {
+          background-color: #333;
+          color: #fff;
+          padding: 40px 20px;
+          position: relative;
+          width: 100%;
+          animation: fadeIn 2s ease-in-out;
+      }
+      .footer-content {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+      .footer-section {
+          flex: 1;
+          min-width: 250px;
+          margin: 10px;
+          animation: slideIn 1s ease-in-out;
+      }
+      .footer-section h3 {
+          border-bottom: 2px solid #fff;
+          padding-bottom: 10px;
+          margin-bottom: 15px;
+      }
+      .social-media a {
+          margin: 0 10px;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.5em;
+          transition: color 0.3s;
+      }
+      .social-media a:hover {
+          color: #1da1f2;
+      }
+      .map-container {
+          width: 100%;
+          height: 200px;
+          margin-top: 20px;
+      }
+      .newsletter input[type="email"] {
+          padding: 10px;
+          width: calc(100% - 22px);
+          margin-bottom: 10px;
+          border: none;
+          border-radius: 5px;
+      }
+      .newsletter button {
+          padding: 10px 20px;
+          background-color: #555;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+      }
+      .newsletter button:hover {
+          background-color: #777;
+      }
+      @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+      }
+      @keyframes slideIn {
+          from { transform: translateY(20px); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+      }
+  </style>
+</head>
+<body style="background-color: rgba(196, 252, 255, 0.297);">
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgba(0, 0, 0, 0.533);">
+  <img src="logq.png" alt="" style="height:50px;">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <img src="" class="sht" alt="">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link links1 active text-white" href="index 20.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link links1 text-white" href="about us.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link links1 text-white" href="exp.html">EXPLORE</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link links1 dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                      PAGE
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="beaches.html">Pakistan</a></li>
+                      <li><a class="dropdown-item" href="india.html">India</a></li>
+                      <li><a class="dropdown-item" href="iran.html">Iran</a></li>
+                      <li><a class="dropdown-item" href="usa.html">U.S.A</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link links1 text-white" href="contact us.html">CONTACT US</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Hero Section -->
+<div class="container-fluid box">
+      
+  <div class="row text-center">
+      <div class="col-md-12">
+          <h1 class="alg" style="margin-top: 10%;">Welcome To Beaches Club</h1>
+      </div>
+  </div>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-12">
+                  <h1 class="alg1" style="margin-top: 3%;">Summer Special</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="row mt-5">
+          <div class="col-md-12 text-center">
+              <div class="btn-group bhn" role="group">
+                  <button type="button" class="btn-outline-primary siz">BOOK NOW</button>
+                  <a target="_blank" href="about us.html">
+                      <button type="button" class="btn-outline-primary siz1 ms-3">CONTACT US</button>
+                  </a>
+              </div>
+          </div> 
+      </div>
+  </div>
+</div>
+</div>
+<!-- Hero Section End -->
+     <!-- Miami Section -->
+     <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-up-right">
+       <a href="beaches.html"><img src="sand.jpg" class="w-100" style="height: 400px;" alt=""></a>
+        </div>
+        <div class="col-md-6" data-aos="fade-down-right">
+          <h1 class="starth mt-5 text-center me-5">Pakistan Beach</h1>
+          <p class="ms-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, earum repudiandae incidunt possimus ut eaque fuga deserunt, molestias.</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Sometimes known dummy</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Best solution for developing your business</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Deserunt ad ipsum sint excepteur</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Lorem sit occaecat ea proident excepteur</p>
+        </div>
+
+      </div>
+  </div>
+  <!-- Miami Section End -->
+        
+        <div class="container-fluid p-4">
+          <div class="row mt-2 p-3 " >
+              <div class="col-md-4 mt-2" data-aos="fade-up">
+                  <div class="card bg-dark text-white rai5 " style="border: none;">
+                      <img src="sea.jpg" class="card-img" alt="..."style="height:400px;">
+                      <div class="card-img-overlay anand ">
+                        <div class="m-2"><a href="beaches.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+                      </div>
+                    </div>
+        
+              </div>
+              <div class="col-md-4 mt-2" data-aos="fade-down">
+                <div class="card bg-dark text-white rai5" style="border: none;">
+                  <img src="orma3.jpg" class="card-img" alt="..."style="height: 400px;">
+                  <div class="card-img-overlay anand"   >
+                    <div class="m-2"><a href="beaches.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+                    </div>
+                  </div>
+        
+            </div>
+              <div class="col-md-4 mt-2" data-aos="fade-up">
+                  <div class="card bg-dark text-white rai5" style="border: none;">
+                    <img src="moc2.webp" class="card-img" alt="..."style="height: 400px;">
+                    <div class="card-img-overlay anand">
+                      <div class="m-2"><a href="beaches.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Miami Section -->
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-down-right">
+         <a href="india.html"><img src="goa.jpg" class="w-100" style="height: 400px;" alt=""></a>
+        </div>
+        <div class="col-md-6" data-aos="fade-up-right">
+          <h1 class="starth mt-5 text-center me-5">India Beach</h1>
+          <p class="ms-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, earum repudiandae incidunt possimus ut eaque fuga deserunt, molestias.</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Sometimes known dummy</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Best solution for developing your business</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Deserunt ad ipsum sint excepteur</p>
+              <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Lorem sit occaecat ea proident excepteur</p>
+        </div>
+
+      </div>
+  </div>
+  <!-- Miami Section End -->
+
+  <div class="container-fluid p-4">
+    <div class="row mt-2 p-3 " >
+        <div class="col-md-4 mt-2" data-aos="fade-down">
+            <div class="card bg-dark text-white rai5 " style="border: none;">
+                <img src="baga.avif" class="card-img" alt="..."style="height:400px;">
+                <div class="card-img-overlay anand ">
+                  <div class="m-2"><a href="iran.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+                </div>
+              </div>
+  
+        </div>
+        <div class="col-md-4 mt-2" data-aos="fade-up">
+          <div class="card bg-dark text-white rai5" style="border: none;">
+            <img src="rad.jpeg" class="card-img" alt="..."style="height: 400px;">
+            <div class="card-img-overlay anand"   >
+              <div class="m-2"><a href="iran.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+              </div>
+            </div>
+  
+      </div>
+        <div class="col-md-4 mt-2" data-aos="fade-down">
+            <div class="card bg-dark text-white rai5" style="border: none;">
+              <img src="ali.webp" class="card-img" alt="..."style="height: 400px;">
+              <div class="card-img-overlay anand">
+                <div class="m-2"><a href="iran.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    
+          
+ <!-- Miami Section -->
+ <div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-md-6" data-aos="fade-up-right">
+      <a href="iran.html"><img src="mali.jpg" class="w-100" style="height: 400px;" alt=""></a>
+    </div>
+    <div class="col-md-6" data-aos="fade-down-right">
+      <h1 class="starth mt-5 text-center me-5">Iran Beach</h1>
+      <p class="ms-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, earum repudiandae incidunt possimus ut eaque fuga deserunt, molestias.</p>
+      <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Sometimes known dummy</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Best solution for developing your business</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Deserunt ad ipsum sint excepteur</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Lorem sit occaecat ea proident excepteur</p>
+    </div>
+
+  </div>
+</div>
+<!-- Miami Section End -->
+
+        
+<div class="container-fluid p-4">
+  <div class="row mt-2 p-3 " >
+      <div class="col-md-4 mt-2" data-aos="fade-up" >
+          <div class="card bg-dark text-white rai5 " style="border: none;">
+              <img src="bann.jpg" class="card-img" alt="..."style="height:400px;">
+              <div class="card-img-overlay anand ">
+                <div class="m-2"><a href="india.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+              </div>
+            </div>
+
+      </div>
+      <div class="col-md-4 mt-2" data-aos="fade-down">
+        <div class="card bg-dark text-white rai5" style="border: none;">
+          <img src="darac2.jpg" class="card-img" alt="..."style="height: 400px;">
+          <div class="card-img-overlay anand"   >
+            <div class="m-2"><a href="india.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+            </div>
+          </div>
+
+    </div>
+      <div class="col-md-4 mt-2" data-aos="fade-up">
+          <div class="card bg-dark text-white rai5" style="border: none;">
+            <img src="gawc1.webp" class="card-img" alt="..."style="height: 400px;">
+            <div class="card-img-overlay anand">
+              <div class="m-2"><a href="india.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+ <!-- Miami Section -->
+ <div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-md-6" data-aos="fade-down-right">
+   <a href="usa.html"><img src="descc1.jpg" class="w-100" style="height: 400px;" alt=""></a>
+    </div>
+    <div class="col-md-6" data-aos="fade-up-right">
+      <h1 class="starth mt-5 text-center me-5">U.S.A Beach</h1>
+      <p class="ms-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, earum repudiandae incidunt possimus ut eaque fuga deserunt, molestias.</p>
+      <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Sometimes known dummy</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Best solution for developing your business</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Deserunt ad ipsum sint excepteur</p>
+          <p class="fw-bolder ms-5"><i class="fa-solid fa-circle-check text-warning"></i> Lorem sit occaecat ea proident excepteur</p>
+    </div>
+
+  </div>
+</div>
+<!-- Miami Section End -->
+
+<div class="container-fluid p-4" >
+  <div class="row mt-2 p-3 " >
+      <div class="col-md-4 mt-2" data-aos="fade-down" >
+          <div class="card bg-dark text-white rai5 " style="border: none;">
+              <img src="kis.jpg" class="card-img" alt="..."style="height:400px;">
+              <div class="card-img-overlay">
+                <div class="m-2"><a href="usa.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+              </div>
+            </div>
+
+      </div>
+      <div class="col-md-4 mt-2" data-aos="fade-up" >
+        <div class="card bg-dark text-white rai5" style="border: none;">
+          <img src="kisc2.jpeg" class="card-img" alt="..."style="height: 400px;">
+          <div class="card-img-overlay">
+            <div class="m-2"><a href="usa.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+            </div>
+          </div>
+
+    </div>
+      <div class="col-md-4 mt-2" data-aos="fade-down">
+          <div class="card bg-dark text-white rai5" style="border: none;">
+            <img src="kisc1.jpg" class="card-img" alt="..."style="height: 400px;">
+            <div class="card-img-overlay">
+              <div class="m-2"><a href="usa.html"><button class="btn btn-dark tt6" style="background-color:black;"> more info</button></a></div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- not S -->
+  <div class="container-fluid"style="margin-top: 20px; margin-bottom: 130px; height: 450px; background: url(wat.jpg)no-repeat ; background-size: cover; background-position: centerm fixed;" data-aos="fade">
+    <div class="row" style="background-color: rgba(0, 0, 0, 0.822); height: 450px;"> 
+    <div class="row pt-5" >
+      <div class="col-md-1"></div>
+      <div class="col-md-6 mt-4 text-light" data-aos="zoom-in"><h2 class="DSN4" style="color:navy;">Spend Your Holidays</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2 mt-4 ms-5 fw-bold"><button class="fs-5 border text-light fw-bold p-3 rounded tt3" data-aos="zoom-out">BOOK NOW</button><a href="" class="text-decoration-none text-light"><p class="mt-4 tt2">GET INFORMATION</p></a> </div>   
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row ">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 bg-dan rounded  p-5" style="height:250px; margin-top:85px; background-color: rgba(2, 2, 141, 0.868);" data-aos="flip-down">
+        <div class="row text-center fw-bold" data-aos="flip-up">
+          <div class="col-md-3" data-aos="zoom-in"><i class="m-3 fa-solid fa-globe text-light fs-1"></i><h3 class="tt1">8,450+</h3><p class="text-light tt">Happy Visitors</p></div>
+          <div class="col-md-3" data-aos="zoom-out"><i class="m-3 fa-solid fa-water-ladder text-light fs-1"></i><h3 class="tt1">30+</h3><p class="text-light tt">World Class Rides</p></div>
+          <div class="col-md-3" data-aos="zoom-in"><i class="m-3 fa-solid fa-award text-light fs-1"></i><h3 class="tt1">15+</h3><p class="text-light tt">Years Of Experience</p></div>
+          <div class="col-md-3" data-aos="zoom-out"><i class="m-3 fa-solid fa-certificate text-light fs-1"></i><h3 class="tt1">40+</h3><p class="text-light tt">Certified Lifeguard</p></div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- not E -->
+                    
+                   <div class="container-fluid  mt-5 " style="background: url(oh7.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;"  data-aos="fade-up">
+                        <div class="row p-5" style="background-color: rgba(0, 0, 0, 0.822);">
+                            <div class="col-md-12  ">
+                              <div>
+                                <h1 class="display-5 fw-bold DSN4" style="color:navy;" data-aos="zoom-in">Spend Your Holidays</h1>
+                                <p class=" text-light" data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, autem ipsam  <br> aspernatur, magni voluptas dolorum, deleniti pariatur</p>
+                              </div>  
+                         </div> 
+                         <div class="col-md-12  border p-3">
+                          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner rounded " data-aos="zoom-in">
+                              <div class="carousel-item active rounded" data-aos="flip-up">
+                                <img src="sd.jpeg" class="d-block w-100"  style="height: 400px; " alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="bb.webp" class="d-block w-100" style="height: 400px; " alt="..." data-aos="flip-down">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="sd2.jpg" class="d-block w-100"  style="height: 400px; " alt="..." data-aos="flip-up">
+                              </div>
+                              
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                         </div>
+                      
+                        </div>
+                        </div>
+
+          
+    <main>
+      <h1 class="text-center mt-4 mb-4 display-5 fw-bold" style="color: navy; font-family: 'Times New Roman', Times, serif; font-size: 50px;" data-aos="flip-left">Thank You For Visiting</h1>
+  </main>
+
+  <footer>
+      <div class="footer-content">
+          <div class="footer-section">
+             <a href="contact.html" class="text-white nav-link" style="font-family: 'Times New Roman', Times, serif;"><h3>About Us</h3></a>
+              <p>We are a leading company in our industry, committed to providing top-notch services and products to our clients worldwide.</p>
+          </div>
+          <div class="footer-section">
+          <a href="about us.html" class="text-white nav-link" style="font-family: 'Times New Roman', Times, serif;"><h3>Contact Us</h3></a>
+               <p> <i class="fa-solid fa-inbox"></i> hanzalak.khan123@gmail.com</p>
+              <p> <i class="fa-solid fa-phone"></i> 03202750602</p>
+              <div class="social-media">
+                  <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/_hanzala_khan._/" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="footer-section">
+              <a href="exp.html" class="text-white nav-link" style="font-family: 'Times New Roman', Times, serif;"><h3>Explore</h3></a>
+              <div class="map-container">
+                  <iframe
+                      width="100%"
+                      height="100%"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.019984282839!2d-122.0842496846923!3d37.42206597982571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24c2f2b9e3b%3A0x2b0b7e1b2b0b7e1b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" allowfullscreen>
+                  </iframe>
+              </div>
+          </div>
+          <div class="footer-section newsletter">
+              <h3 style="font-family: 'Times New Roman', Times, serif;">Newsletter</h3>
+              <p>Subscribe to our newsletter to stay updated on our latest news and offers.</p>
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+          </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+          <p>&copy; <span id="year"></span> Your Company Name. All rights reserved.</p>
+      </div>
+  </footer>
+
+  <script>
+  
+      document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+    
+                   
+       
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>

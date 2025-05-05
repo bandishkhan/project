@@ -1,0 +1,237 @@
+.links {
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+.links1{
+    margin-left: 30px;
+    }
+
+
+    .box{
+    
+        height: 595px;
+        background-image:url(ko.jpg);
+        background-size:cover ;
+        background-repeat: no-repeat;
+        box-shadow:3px 3px 3px black;
+        width: 100%;
+        background-size: cover;
+    }
+    .alg{
+        font-family:bell mt;
+        font-size:40px;
+        transition: all 1s;
+        color:rgb(202, 202, 38);  
+        font-weight: 800;  
+    }
+    .alg1{
+        font-size:100px;
+        font-weight: 400;
+        font-family:Bell MT;
+        color:rgba(211, 143, 16, 0.86); 
+        transition: all 1s linear;   
+     }
+     .alg1:hover{
+         font-size:110px;  
+     }
+     .alg:hover{
+        font-size:43px;
+        color:yellow;
+    }
+
+    .siz{
+       
+        width: 160px;
+        height: 70pX;
+        border-radius: 2px;
+        transition: all 1s linear;
+        box-shadow: 3px 3px 8px black;
+     }
+
+     .siz1{
+        width: 160px;
+        height: 70pX;
+        color:whitesmoke;
+        border-radius: 2px;
+        background: rgba(0, 0, 0, 0.219);
+        border: none;
+        box-shadow: 4px 4px 8px rgb(252, 251, 251);
+        transition: all 1s linear;
+        
+     }
+
+
+     .siz:hover{
+        width: 161.5px;
+        height: 71.5pX;  
+        font-size: 16px;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.56);
+    }
+
+    .siz1:hover{
+        border: 1px gray double;
+        color:black;
+        font-size: 16px;
+        font-weight: bold;
+        background: rgba(180, 172, 172, 0);
+        width: 161.5px;
+        height: 71.5pX;
+     }
+.para{
+    font-family:Bell MT;
+    font-size: 55px;
+    color:rgb(2, 2, 165);
+}
+.para1{
+    font-family:Times;
+    font-size: 22px;
+    height:100%;
+    margin-top:60px;
+}
+.set1{
+    height: 500px;
+    width: 600px;
+    transition: all 1s;
+    box-shadow:3px 3px 5px black;
+    border-radius:5px;
+}
+.edt{
+    transition: all 1s;
+    box-shadow:3px 3px 5px black;
+    height: 400px;
+    width: 100px; 
+}
+.start{
+    height: 500px;
+    width: 600px;
+    transition: all 1s;
+    box-shadow:3px 3px 5px black;
+    margin-top: 7px;
+    margin-right: 200px;
+    border-radius:5px;
+}
+.starth{ 
+    color:rgb(2, 2, 165);
+    font-family:Bell MT;
+    font-size: 55px;
+}
+.startp{
+    font-family:Times;
+    font-size: 22px;
+    height:100%;
+    margin-top:70px;
+}
+.startp3{
+    font-family:Times;
+    font-size: 22.5px;
+    height:100%;
+    margin-top: 60px;
+}
+.startp4{
+    font-family:Times;
+    font-size: 22.5px;
+    height:100%;
+    margin-top:75px;
+}
+.startp5{
+    font-family:Times;
+    font-size: 23px;
+    height:100%;
+    margin-top: 90px;
+}
+.sht{
+    height:40px;
+}
+
+
+               /* footer */
+
+.foot {
+    margin-top: 45PX;
+    background-image: url(hd.gif);
+background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px gray;
+    box-sizing: border-box;
+    color:black;
+    height:400px;
+}
+.wrt{
+    font-family:Colonna MT; 
+    font-weight: bold;
+    font-size:30px;
+    margin-top: 75px;
+    margin-left: 550px;
+}
+.wrt1{
+    font-family:Colonna MT; 
+    font-weight: bold;
+    font-size:30px;
+    margin-top: 75px;
+    margin-left: 170px;
+}
+.wrt2{
+    font-family:Colonna MT; 
+    font-weight: bold;
+    font-size:30px;
+    margin-top: -47px;
+    margin-left: 172%;
+}
+.sppt{
+    margin-left:182%;
+    margin-top:22px;
+    font-family:bold;
+}
+.DSN{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.tt6{
+    margin-top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* box */
+
+.box1{
+    height:330px;
+    width:380px;
+    border:1px solid black;
+    position:relative;
+    overflow: hidden;
+   }
+
+    .box1 img{
+        width:100%;
+        height:100%;
+    }
+    .cont{
+        background-color: rgba(0, 0, 0, 0.886);
+        position: absolute;
+        top: 0;
+        left:-100%;
+        height:100%;
+        width:100%;
+        color:whitesmoke;
+        padding:20px;
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 0.15s linear;
+    }
+
+    .box1:hover .cont{
+        left: 0%;
+    }
